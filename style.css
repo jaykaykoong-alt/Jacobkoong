@@ -1,0 +1,74 @@
+/* General */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    background-color: #f0f0f0; /* light background for readability */
+    color: #222;
+}
+
+/* Sidebar */
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: #041E42; /* Navy blue */
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: white; /* sidebar title text color */
+    text-shadow: 
+        -1px -1px 0 #C8102E,  
+         1px -1px 0 #C8102E,  
+        -1px  1px 0 #C8102E,  
+         1px  1px 0 #C8102E;  
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sidebar a:hover {
+    background-color: #C8102E; /* red hover */
+}
+
+/* Main content */
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+/* Headings in sections */
+h1, h2 {
+    color: black; /* black headings in sections */
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Paragraph text */
+p {
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+
+/* Images in sections */
+.section-img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 10px 0;
+}
